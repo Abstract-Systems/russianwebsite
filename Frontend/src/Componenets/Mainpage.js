@@ -1,4 +1,5 @@
 import "./Mainpage.css";
+import MyForm from "./Form";
 
 function MainPage() {
   return (
@@ -64,25 +65,7 @@ function MainPage() {
         
       </div>
       <div className="MainPageForm">
-        <form>
-            <label>
-                First Name:
-                <input type="text" name="name" />
-            </label>
-            <label>
-                Last Name:
-                <input type="text" name="name" />
-            </label>
-            <label>
-                Contact Number:
-                <input type="text" name="name" />
-            </label>
-            
-            <label>
-                
-            <input type="submit" value="Submit" />
-            </label>
-        </form>
+        <MyForm />
 
       </div>
       <div className="MainPageFooter">
