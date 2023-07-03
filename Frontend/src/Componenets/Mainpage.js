@@ -1,8 +1,11 @@
 import "./Mainpage.css";
+import Navbar from "./Navbar.jsx";
 
 function MainPage() {
   return (
+
     <div className="MainPageContainer">
+      <Navbar title="Russian Website" text="This is a website about Russia" color="red" />
       <div className="MainPageContent">
         <div className="MainPageParagraphs">
           <p>
