@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .MainPageContainer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f5f5f5;
+  }
+  
+  .MainPageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MainPageContent h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .MainPageContent p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .MainPageContent .MainPageImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px; /* Set a fixed height for square images */
+    margin-bottom: 20px;
+  }
+  
+  .MainPageContent .MainPageImage img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .MainPageForm {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MainPageForm label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .MainPageForm input {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .MainPageForm input:focus {
+    border-color: #555;
+  }
+  
+  .MainPageForm input::placeholder {
+    color: #888;
+  }
+  
+  .MainPageForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MainPageForm input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .MainPageFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .MainPageFooter p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  .footerContainer a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .footerContainer a:hover {
+    color: #000;
+  }
+  
+  .footerSocialMedia a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footerSocialMedia a:hover {
+    color: #555;
+  }
+  
