@@ -33,7 +33,7 @@ function MyForm() {
         </label>
       <br />
         <label>
-        Phone:
+        Phone Number:
         <input
             type="text"
             value={phone}
